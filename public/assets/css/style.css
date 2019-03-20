@@ -1,0 +1,132 @@
+*{
+	margin:0px auto;
+	padding:0px;
+	box-sizing:border-box;
+}
+.container{
+	width:1170px;
+	margin:0px auto;
+	height:auto;
+}
+
+body{
+font-family: 'Open Sans Condensed', sans-serif;
+height:100%}
+.header_area {
+	overflow: hidden;
+	background-color: #5CAE60;
+}
+.header_left {
+	width: 200px;
+	float: left;
+	text-align: center;
+}
+.header_left a {
+	font-family: 'Satisfy', cursive;
+	padding: 2px;
+	display: block;
+	font-size: 51px;
+	text-decoration: none;
+	color: #fff;
+}
+.header_right {
+	text-align: right;
+	overflow: hidden;
+	float: right;
+	margin-right: 70px;
+	padding: 6px 0px;
+	cursor:pointer
+}
+.header_right a {
+	float: left;
+	font-size: 23px;
+	margin-right: 13px;
+	text-decoration:none;
+	color: #fff;
+	padding: 17px 0px;
+}
+.header_right img {
+	width: 60px;
+	height: 60px;
+	border-radius: 50%;
+	padding: 0px;
+	margin-top: 1px;
+}
+.table {
+	margin: 45px 33px;
+	height: 100vh;
+}
+.table a.view {
+	padding: 5px 20px;
+	display: inline-block;
+	background-color: #8FBB9C;
+	color: #fff;
+	text-decoration: navajowhite;
+	text-transform: capitalize;
+	border-radius: 2px;
+	margin-bottom: 16px;
+}
+input[type=text], select,input[type=number],textarea,input[type=date]{
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type=submit] {
+  width: 100%;
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+/* div {
+	border-radius: 5px;
+	background-color: #f2f2f2;
+	padding: 20px;
+} */
+.form {
+	border-radius: 5px;
+	background-color: #f2f2f2;
+	padding: 20px;
+	width: 346px;
+	margin: 24px auto;
+	
+}
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+.red{color:red}
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+.footer {
+	text-align: center;
+	padding: 20px 0px;
+	text-transform: capitalize;
+	background-color: #2C8647;
+	color: #fff;
+	font-size: 20px;
+}
+.footer span {
+	font-weight: bold;
+}
